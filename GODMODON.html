@@ -5,19 +5,25 @@
 GODMODON
 </title>
 <style>
-.multicolortext {
+.nameofsite {
         background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
+		
       }
+p.double {
+border-style: double;
+border-width: thick;
+border-radius: 12px;
+}
 h1 {
 text-align: center;
 }
-body {
-background-image:url("splash.jpg")
-}
+<--!body {
+background-image:url("splash.jpg")	
+}-->
 #imagelignment {
 text-align : right;
 }
@@ -29,13 +35,22 @@ text-align : right;
 
 <h1>
 <b> 
-<span class="multicolortext">GODMODON <div id="imagelignment"><img src="godmodon.jpeg" width="120" height="150"></div></span>
+<p class="double">
+<span class="nameofsite">GODMODON 
+</span>
+</p>
+<div id="imagelignment">  <img src="godmodon.jpeg" width="120" height="150">  
+</div>
 </b>
 </h1>
-
-<p class="multicolortext">
+<div id="demo">
+<p style="color:red;">
 just started building this website.
 </p>
+</div>
+<button type="button" onclick="document.getElementById('demo').style.display='FUCK OFF'">
+TOUCH ME 
+</button>
 
 
 </body>
